@@ -1,0 +1,276 @@
+.container{
+  width: 60%;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: rgba(137, 43, 226, 0.726);
+  border-radius: 10px;
+}
+
+.container h2{
+  margin-bottom: 20px;
+}
+
+.container .flex-container{
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  gap: 1.25em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0 10px ;
+}
+
+.container .flex-container p{
+  font-weight: 400;
+  color: white;
+  padding: 8px;
+}
+
+.container .flex-container p:nth-child(odd) {
+  background-color: rgba(255, 192, 203, 0.692);
+   border: 2px solid pink;
+   border-radius: 5px;
+}
+
+.container .flex-container p:nth-child(even) {
+   background-color: crimson;
+   border: 2px solid rgb(255, 0, 85);
+   border-radius: 5px;
+}
+
+
+.container1 {
+  width: 100%;
+  padding: 30px 5%;
+  background-color: whitesmoke;
+}
+
+.container1 h2 {
+  margin-bottom: 40px;
+}
+
+.container1 .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-around;
+  margin: 0 50px;
+}
+
+.container1 .card {
+  width: 250px;
+  height: 350px;             
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.container1 .card:hover {
+  transform: translateY(-10px) scale(1.03); 
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2); 
+}
+
+.container1 .card img {
+  width: 100%;
+  height: 50%;               
+  object-fit:fill;
+}
+
+.container1 .card h3 { 
+  margin: 15px 0 8px; 
+  text-align: center;
+  font-weight: 500;
+ }
+
+.container1 .card p.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.container1 .card p.price .availability {
+  padding: 3px 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.container3 {
+  width: 100%;
+  padding: 40px 5%;
+}
+
+.container3 title{
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.container3 title h1{
+  width: 500px;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+.container3 table thead{
+  width: 100px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.container3 table thead th{
+  padding: 0 60px;
+  font-size: 20px;
+  font-weight: 20%;
+  background-color: white;
+
+}
+
+
+.container3 table tbody td{
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.container table tbody tr{
+  border: 10px;
+}
+
+.container table tbody td:nth-child(even){
+  background-color: blue;
+}
+
+.container4 {
+  width: 100%;
+  padding: 40px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14em;
+}
+
+.form-container {
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.form input {
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.form input:focus {
+  outline: none;
+  background-color: #333; 
+  box-shadow: 0 0 6px rgba(106, 90, 205, 0.6);
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  color: rgb(20, 16, 16);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.container4 .field1 {
+        width: 800px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 0 10px black;
+        overflow: hidden;
+        background-color: rgba(226, 108, 108, 0.588);
+        text-align: center;
+        margin-top: 50px;
+    }
+
+.container4 .field1 h2 {
+        width: 100%;
+        background-color: red;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+        color: white;
+    }
+    
+    .container4 .field1 img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: 15px auto;
+        display: block;
+        background-color: rgb(242, 90, 90);
+        object-fit: cover;
+    }
+    
+    .container4 .field-container {
+        text-align: left;
+        margin: 10px 20px;
+    }
+    
+    .container4 .field-container label {
+        font-weight: bold;
+        display: block;
+    }
+    
+    .container4 .field-container p {
+        margin: 5px 0;
+    }
+    
+    .container4 .field1 .footer {
+        background-color: brown;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        height: 40px;
+        display: flex;
+        color: white;
+    }
